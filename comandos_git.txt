@@ -1,10 +1,10 @@
 # Asegura que pec1 está al día en remoto
 
-git checkout pec1
+git checkout pec2
 git status           
-git push origin pec1
+git push origin pec2
 
-# Fusiona pec1 → main
+# Fusiona pec2 → main
 
 git checkout main
 git fetch origin
@@ -15,8 +15,8 @@ git merge --no-ff pec1
 # git commit
 git push origin main
 
-# Sigue trabajando en pec1
+# Sigue trabajando en pec2
 
 
-git checkout pec1
+git checkout pec2
 git merge origin/main           
