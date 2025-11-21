@@ -1,51 +1,78 @@
-// ===============================================
-// Settings (variables del proyecto)
-// ===============================================
+/* ============================================================
+   SETTINGS – Variables globales del proyecto
+   ============================================================ */
 
-// --- Colores principales del sitio ---
-$color-fondo: #f7f3e9; // fondo general (tono arena claro)
-$color-texto: #2b2b2b; // texto normal
-$color-texto-suave: #555; // para pies de foto, créditos, notas menos importantes
-$color-brand: #b8860b; // “albero” para acentos (botones, enlaces destacados)
-$color-brand-osc: #8a6709; // variante un poco más oscura
+/* ------------------------------------------------------------
+   PALETA DE COLORES
+   ------------------------------------------------------------ */
 
-// --- Apoyos suaves (secciones y bordes) ---
-$color-arena: #f2eadf; // bloques y tarjetas sobre el fondo
-$color-borde: rgb(0 0 0 / 10%); // líneas finas, divisores
+$color-primary: #b3542e;          // Terracota
+$color-secondary: #d9a441;        // Mostaza
+$color-accent: #5f6e3a;           // Verde oliva
 
-// --- Estados de texto ---
-$color-info: #2d6cdf; // notas/ayuda (info)
-$color-aviso: #e6a700; // advertencias suaves (aviso)
+$color-neutral-dark: #2b2b2b;     // Texto principal
+$color-neutral-light: #f7f3ee;    // Fondo general crema
+$color-surface: #ffffff;          // Superficies blancas (tarjetas)
+$color-border: #e8e2da;           // Borde gris cálido
 
-// --- Tipografía básica ---
-$font-base: roboto, arial, sans-serif;
-$fs-base: 16px;     // tamaño base de letra
-$fs-h1: clamp(2rem, 4vw, 3rem);
-$fs-h2: clamp(1.5rem, 3vw, 2rem);
-$fs-h3: clamp(1.25rem, 2.5vw, 1.5rem);
-$lh-base: 1.6;      // interlínea cómoda
 
-// --- Espaciado rápido (margen/relleno) ---
-$space-xs: .5rem;
-$space-sm: .75rem;
-$space-md: 1rem;
-$space-lg: 1.5rem;
-$space-xl: 2rem;
+/* ------------------------------------------------------------
+   TIPOGRAFÍA
+   ------------------------------------------------------------ */
 
-// --- Bordes redondeados simples ---
-$radius-sm: .375rem;
-$radius-md: .75rem;
+$font-family-base: "Inter", system-ui, sans-serif;
+$headings-font-family: "Merriweather", serif;
 
-// --- Anchos útiles ---
-$container-max: 1100px;   // ancho máximo de .o-container
-$gutter: 1rem;     // separación lateral interna
+$font-size-base: 1rem;            // 16px
+$line-height-base: 1.6;           // para párrafos
 
-// --- Tamaños de letra complementarios ---
-$fs-small: 0.875rem;   // ~14px, para textos secundarios
-$fs-caption: 0.8125rem;  // ~13px, para pies de foto / créditos
+/* Escala tipográfica según guía visual */
+$heading-scale-h1: 2.75rem;       // ~44px
+$heading-scale-h2: 2.25rem;       // ~36px
+$heading-scale-h3: 1.75rem;       // ~28px
+$heading-scale-h4: 1.5rem;        // ~24px
+$heading-scale-h5: 1.25rem;       // ~20px
+$heading-scale-h6: 1.125rem;      // ~18px
 
-// Breakpoints (decisión global del proyecto)
-$bp-sm: 480px;
+
+/* ------------------------------------------------------------
+   RADIOS Y BORDES
+   ------------------------------------------------------------ */
+
+$border-radius-base: 0.5rem;
+$border-radius-lg: 1rem;
+
+
+/* ------------------------------------------------------------
+   ESPACIADOS
+   ------------------------------------------------------------ */
+
+/* Para Bootstrap */
+$spacer: 1rem;
+
+/* Para diseño propio (escala del apartado 2.4) */
+$space-1: 0.25rem;    // 4px
+$space-2: 0.5rem;     // 8px
+$space-3: 1rem;       // 16px
+$space-4: 1.5rem;     // 24px
+$space-5: 2rem;       // 32px
+$space-6: 3rem;       // 48px
+$space-7: 4rem;       // 64px
+
+
+/* ------------------------------------------------------------
+   BREAKPOINTS (opcional, pero recomendado)
+   ------------------------------------------------------------ */
+
+$bp-sm: 576px;
 $bp-md: 768px;
-$bp-lg: 1024px;
-$bp-xl: 1280px;
+$bp-lg: 992px;
+$bp-xl: 1200px;
+
+
+/* ------------------------------------------------------------
+   CONTAINER QUERIES
+   ------------------------------------------------------------ */
+
+$container-min: 40rem;
+$container-max: 60rem;

@@ -9,7 +9,7 @@ git push origin pec2
 git checkout main
 git fetch origin
 git pull --ff-only origin main
-git merge --no-ff pec1          
+git merge --no-ff pec2 
 # si hay conflictos: resuélvelos, luego:
 # git add .
 # git commit
