@@ -11,13 +11,58 @@
     <!-- HEADER -->
     <include src="views/header.html"></include>
 
-    <!-- CONTENIDO TEMPORAL -->
+    <!-- MAIN -->
     <main class="page__main">
-      <section class="placeholder-home">
-        <h1 class="placeholder-home__title">Portada en construcción</h1>
-        <p class="placeholder-home__text">
-          Aquí aparecerá la maquetación con CSS Grid según el wireframe.
-        </p>
+      <section class="hero hero--landing">
+          <div class="hero__inner">
+            <!-- Frase principal -->
+            <header class="hero__content text-center">
+              <h1 class="hero__title hero__title--primary">
+                IV Jornadas de Cocina Tradicional
+              </h1>
+            </header>
+
+            <!-- Imagen grande del guiso -->
+            <figure class="hero__media">
+              <img
+                src="assets/images/index-hero-guiso-tradicional.png"
+                alt="Plato de guiso tradicional servido en cazuela de barro"
+                class="hero__image img-fluid"
+                loading="lazy"
+              />
+            </figure>
+
+            <!-- Frase secundaria -->
+            <div class="hero__text-block text-center">
+              <h2 class="hero__title hero__title--secondary">
+                Sabores de siempre en la mesa de hoy
+              </h2>
+              <p class="hero__subtitle hero__subtitle--lead">
+                Tres días dedicados a la cocina de siempre: charlas con cocineros y
+                cocineras locales, talleres prácticos, degustaciones guiadas y espacio
+                para compartir recetas familiares.
+              </p>
+            </div>
+
+            <!-- Información básica -->
+            <div class="hero__info card hero__info-card mx-auto">
+              <div class="card-body">
+                <p class="hero__info-line">
+                  <strong>Centro Cultural La Almazara</strong>
+                </p>
+                <p class="hero__info-line">
+                  <strong>24–26 de abril de 2025</strong>
+                </p>
+                <p class="hero__info-line">
+                  <strong>Mañanas y tardes</strong>
+                </p>
+                <p class="hero__info-line">
+                  <strong>Entrada gratuita</strong> · Plazas limitadas
+                </p>
+              </div>
+            </div>
+
+          </div>
       </section>
     </main>
 

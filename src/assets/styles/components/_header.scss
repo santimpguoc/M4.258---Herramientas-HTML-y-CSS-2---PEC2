@@ -4,14 +4,34 @@
    HEADER / NAVBAR
    ============================ */
 
+/* Estilo base del header (todas las páginas) */
 .site-header {
-  background-color: $color-surface;
+  background-color: $color-surface;        // blanco por defecto
   border-bottom: 1px solid $color-border;
+}
+
+/* En la portada, el header tiene el mismo fondo que el main */
+.page--home .site-header {
+  background-color: $color-neutral-light;
+  border-bottom: none;
+}
+
+/* Opcional: ajustar color de enlaces solo en la portada */
+.page--home .site-header__menu .nav-link {
+  color: $color-neutral-dark;
+
+  &:hover,
+  &:focus {
+    color: $color-primary;
+  }
 }
 
 /* Barra de navegación */
 .site-header__nav {
   padding-block: $space-1;
+  /* Si quieres asegurarte aún más:
+  background-color: inherit;
+  */
 }
 
 /* ============================================
