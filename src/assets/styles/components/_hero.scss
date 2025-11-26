@@ -1,28 +1,118 @@
-/* Bloque de introducción de la portada */
-
 @use "../settings/settings" as *;
-@use "../tools/tools" as *;
+
+/* Estilos visuales de la hero del index */
 
 .hero {
-  background: $color-arena;
-  padding-block: $space-xl;
+  background-color: $color-neutral-light;
+  color: $color-neutral-dark;
+}
 
-  &__inner { @include container($container-max, $space-md); }
+/* Imagen del guiso */
+.hero__image {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: $border-radius-lg;
+  box-shadow: 0 14px 32px rgba(0, 0, 0, 0.18);
+}
 
-  &__title {
-    font-size: $fs-h1;
-    margin-bottom: $space-sm;
-    color: $color-texto;
+/* Título y texto */
+
+.hero__title{
+  margin: 0;
+  font-family: $headings-font-family;
+  font-weight: 700;
+  font-size: $heading-scale-h1;
+  line-height: 1.2;
+  color: $color-primary;
+}
+
+.hero__title--primary {
+  font-size: 3rem;
+}
+
+.hero__title--secondary {
+  font-size: 2.5rem;
+}
+
+.hero__subtitle--lead{ 
+  font-size: 1.25rem;
+  line-height: 1.5;
+  color: $color-neutral-dark;
+  margin-top: $space-3;
+  font-weight: 500;
+}
+
+/* Tarjeta de información básica (lugar, fechas, horario...) */
+.hero__info-card {
+  max-width: 26rem;
+  text-align: center;
+  background-color: $color-surface;
+  border-radius: $border-radius-base;
+  border: 1px solid $color-border;
+  box-shadow: 0 10px 24px rgba(0, 0, 0, 0.08);
+}
+
+.hero__info-card .card-body {
+  padding: $space-3 $space-4;
+}
+
+.hero__info-line {
+  margin: 0;
+  font-size: 1.15rem;
+  line-height: 1.6;
+
+  &:not(:last-child) {
+    margin-bottom: 0.25rem;
   }
+}
 
-  &__text {
+@media (max-width: $bp-sm) {
+  .hero__info-card {
     max-width: 100%;
-    margin-bottom: $space-sm;
+    margin-inline: auto;
   }
 
-  &__video {
-    margin: 0 auto;;
-    margin-top: $space-md;
-    max-width: 720px; // limita el ancho del bloque vídeo dentro del hero
+  .hero__info-card .card-body {
+    padding: $space-3;
+  }
+
+  .hero__info-line {
+    font-size: 1rem;
+  }
+}
+
+/* Ajustes responsivos */
+@media (max-width: $bp-md) {
+  .hero__title {
+    font-size: $heading-scale-h3;
+  }
+
+  .hero__image {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .hero__subtitle {
+    font-size: 1rem;
+    width: 90%;
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: $bp-sm) {
+  .hero__title {
+    font-size: $heading-scale-h2;
+  }
+
+  .hero__image {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .hero__subtitle {
+    font-size: 1rem;
+    width: 90%;
+    margin: 0 auto;
   }
 }

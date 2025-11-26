@@ -1,11 +1,11 @@
-@forward "navbar";
-@forward "hero";
-@forward "video-thumb";
-@forward "section-title";
-@forward "cards";
-@forward "medias";
-@forward "splits";
-@forward "gastronomia";
-@forward "personajes";
-@forward "footer";
-@forward "backtotop";
+/* ============================================================
+   COMPONENTS – Estilos de componentes reutilizables
+   Este archivo importa los estilos parciales de cada componente.
+   =========================================================== */
+
+@use "header";
+@use "footer";
+@use "hero";
+@use "participants";
+@use "article";
+@use "registration";

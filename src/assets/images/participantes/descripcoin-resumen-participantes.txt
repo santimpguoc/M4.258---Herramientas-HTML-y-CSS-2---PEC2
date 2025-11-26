@@ -1,0 +1,64 @@
+Perfecto, vamos a darles “vida” a estos seis chefs 😊
+Te dejo para cada uno: **nombre, cargo, especialidad y una mini bio** lista para usar en las tarjetas.
+
+---
+
+### 1️⃣ Luis Herrera
+
+**Cargo:** Chef ejecutivo – Restaurante *La Alacena Vieja* (León)
+**Especialidad:** Guisos tradicionales y cocina de cuchara
+**Descripción:**
+Luis Herrera lleva más de 35 años entre fogones rescatando recetas de pueblo y adaptándolas a los gustos actuales. Es conocido por sus potajes lentos, sus cocidos de temporada y por su defensa del producto local de montaña.
+
+---
+
+### 2️⃣ Marina Sanz
+
+**Cargo:** Jefa de cocina – Casa de Comidas *El Candil* (Sevilla)
+**Especialidad:** Cocina casera andaluza y platos de huerta
+**Descripción:**
+Marina Sanz ha convertido el recetario familiar en la base de una cocina honesta y cercana. Domina los guisos de verduras, los estofados de pescado y los postres de cuchara que se servían en las casas de barrio de toda la vida.
+
+---
+
+### 3️⃣ Daniel Okoro
+
+**Cargo:** Chef invitado – *Aromas del Sur* (Lisboa)
+**Especialidad:** Cocina africana tradicional y fusión mediterránea
+**Descripción:**
+Daniel Okoro combina técnicas de la cocina de África occidental con productos del Atlántico y del Mediterráneo. Sus currys suaves, estofados aromáticos y panes especiados ponen en valor la cocina de mercado y el uso responsable de las especias.
+
+---
+
+### 4️⃣ Ricardo Valdés
+
+**Cargo:** Asesor gastronómico y formador culinario
+**Especialidad:** Cocina tradicional europea y técnicas de baja temperatura
+**Descripción:**
+Con una trayectoria en restaurantes de Francia, Italia y España, Ricardo Valdés se centra en reinterpretar platos clásicos con técnicas modernas. Sus talleres se enfocan en fondos, salsas y tiempos de cocción largos para conseguir sabores profundos y equilibrados.
+
+---
+
+### 5️⃣ Javier Montalvo
+
+**Cargo:** Chef propietario – Bistró *Fogón de Barrio* (Madrid)
+**Especialidad:** Cocina de mercado y tapas creativas
+**Descripción:**
+Javier Montalvo trabaja con pequeños productores y producto de temporada para crear versiones modernas de platos de toda la vida. Sus croquetas, guisos en raciones pequeñas y cazuelas compartidas son el sello de su propuesta cercana y actual.
+
+---
+
+### 6️⃣ Akiko Mori
+
+**Cargo:** Chef invitada – Taller de cocina japonesa tradicional
+**Especialidad:** Caldos, arroces y platos de cuchara japoneses
+**Descripción:**
+Akiko Mori se especializa en cocina casera japonesa: caldos dashi, estofados ligeros y recetas que se preparan en las casas de invierno. En sus ponencias muestra cómo integrar técnicas japonesas en guisos occidentales sin perder el carácter de cada tradición.
+
+---
+
+Si quieres, en el siguiente paso montamos ya la **página de Participantes**:
+
+* HTML de la rejilla con Flexbox (sin `.row` ni `.col-*` de Bootstrap, tal como exige el enunciado).
+* SCSS en `objects/_participants-grid.scss` y `components/_participant-card.scss`.
+* Uso de estas bios y las imágenes que ya tienes guardadas.
