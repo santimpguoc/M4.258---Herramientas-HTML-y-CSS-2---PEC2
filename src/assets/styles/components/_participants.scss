@@ -7,7 +7,7 @@
 .participant-card {
   border-radius: $border-radius-base;
   border: 1px solid $color-border;
-  box-shadow: 0 10px 24px rgba(0, 0, 0, 0.06);
+  box-shadow: 0 10px 24px rgb(0 0 0 / 6%);
   overflow: hidden;
   height: 100%; /* para que todas tengan la misma altura */
   display: flex;

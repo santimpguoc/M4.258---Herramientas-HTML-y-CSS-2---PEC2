@@ -13,7 +13,7 @@
   width: 100%;
   height: auto;
   border-radius: $border-radius-lg;
-  box-shadow: 0 14px 32px rgba(0, 0, 0, 0.18);
+  box-shadow: 0 14px 32px rgb(0 0 0 / 18%);
 }
 
 /* Título y texto */
@@ -50,7 +50,7 @@
   background-color: $color-surface;
   border-radius: $border-radius-base;
   border: 1px solid $color-border;
-  box-shadow: 0 10px 24px rgba(0, 0, 0, 0.08);
+  box-shadow: 0 10px 24px rgb(0 0 0 / 8%);
 }
 
 .hero__info-card .card-body {

@@ -11,7 +11,7 @@
 .article-hero__image {
   width: 100%;
   height: auto;
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.12);
+  box-shadow: 0 10px 30px rgb(0 0 0 / 12%);
   object-fit: cover;
 }
 
@@ -75,7 +75,7 @@
   padding: $space-3;
   border-radius: $border-radius-base;
   background-color: $color-surface;
-  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.04);
+  box-shadow: 0 4px 16px rgb(0 0 0 / 4%);
 }
 
 /* Número circular */
@@ -83,17 +83,14 @@
   display: inline-flex;           
   align-items: center;
   justify-content: center;
-
   width: 2.6rem;
   height: 2.6rem;
   min-width: 2.6rem;              
   min-height: 2.6rem;
-
   border-radius: 50%;
   padding: 0;                     
   line-height: 2.6rem;            
   box-sizing: border-box;
-
   background-color: $color-primary;
   color: #fff;
   font-weight: 700;
@@ -164,14 +161,13 @@
   display: grid;
   grid-template-columns: 1fr;
   gap: $space-4;
-  
   width: 100%;
   max-width: $bp-lg;
   margin-inline: auto;
 }
 
 .article-page__closing-image {
-  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 8px 24px rgb(0 0 0 / 10%);
 }
 
 .article-page__closing-text p {
