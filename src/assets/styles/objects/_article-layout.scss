@@ -27,8 +27,11 @@
 .article-page__intro {
   width: 100%;
   max-width: $bp-lg;
-  margin-bottom: $space-6;
+
+  // CORRECCIÓN: margin: 0 auto; debe ir antes de margin-bottom: $space-6;
+  // Línea 31 corregida
   margin: 0 auto;
+  margin-bottom: $space-6;
 }
 
 .article-page__intro .article-intro {
@@ -52,13 +55,16 @@
 .article-page__schedule {
   width: 100%;
   max-width: $bp-lg;
-  margin-bottom: $space-6;
+
+  // CORRECCIÓN: margin: 0 auto; debe ir antes de margin-bottom: $space-6;
+  // Línea 56 corregida
   margin: 0 auto;
+  margin-bottom: $space-6;
 }
 
 .article-page__schedule-grid {
   display: grid;
-  grid-template-columns: 1fr;  
+  grid-template-columns: 1fr;
   gap: $space-4;
 }
 
@@ -77,8 +83,11 @@
 .article-page__highlight {
   width: 100%;
   max-width: $bp-lg;
-  margin-bottom: $space-6;
+
+  // CORRECCIÓN: margin: 0 auto; debe ir antes de margin-bottom: $space-6;
+  // Línea 81 corregida
   margin: 0 auto;
+  margin-bottom: $space-6;
 }
 
 /* CIERRE */
@@ -98,38 +107,34 @@
 }
 
 @media (max-width: $bp-sm) {
-   .article-page__intro {
-        width: 90%;
-    }
+  .article-page__intro {
+    width: 90%;
+  }
 
-    .article-page__intro .article-intro {
-        grid-template-columns: 1fr;
-        width: 100%;
-    }
+  .article-page__intro .article-intro {
+    grid-template-columns: 1fr;
+    width: 100%;
+  }
 
-    .article-page__intro .article-intro__title {
-        font-size: $heading-scale-h4;
-        text-align: center;
-    }
+  .article-page__intro .article-intro__title {
+    font-size: $heading-scale-h4;
+    text-align: center;
+  }
 
-    .article-page__schedule {
-        width: 90%;
-    }
+  .article-page__schedule {
+    width: 90%;
+  }
 
-    .article-page__highlight {
-        width: 90%;
-    }
+  .article-page__highlight {
+    width: 90%;
+  }
 
-    .article-page__highlight .article-page__highlight-inner {
-        grid-template-columns: 1fr;
-        width: 100%;
-    }
+  .article-page__highlight .article-page__highlight-inner {
+    grid-template-columns: 1fr;
+    width: 100%;
+  }
 
-    .article-page__closing {
-        width: 90%;
-    }
+  .article-page__closing {
+    width: 90%;
+  }
 }
-
-
-
-
